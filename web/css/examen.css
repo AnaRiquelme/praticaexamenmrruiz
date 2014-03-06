@@ -1,0 +1,97 @@
+/*-----INICIAMOS ESTILOS----*/
+body
+{
+    background-color: #eee;
+    margin-top: 20px;
+}
+ul 
+{
+    list-style: none;
+}
+/*--CABECERA/CONTENEDOR LOGO Y MENU--*/
+.jumbotron {
+    padding: 0!important;
+font-size: 17px!important;
+font-weight: 200;
+line-height: 2.1428571435;
+color: inherit;
+background-color: #fff!important;
+}
+.jumbotron {
+padding-top: 0!important;
+padding-bottom: 0!important;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+ul, ol {
+margin-top: 0;
+margin-bottom: 0!important;
+}
+ul li
+{
+    color:green;
+}
+/*---MENU---*/
+.navbar-nav {
+float: left;
+margin: 0;
+background-color:#1B4B3D!important; 
+
+}
+.navbar-collapse {
+width: auto;
+border-top: 0;
+box-shadow: none;
+background-color:#1B4B3D!important; 
+}
+a {
+color: #E4C038!important;
+text-decoration: none;
+}
+
+/*---IMAGEN---*/
+.chip
+{
+   /* margin-right: 30px;*/
+   width:100%;
+}
+
+.posicion{
+    position: relative;
+}
+th
+{
+    text-align: center;
+}
+.cabezaAr2
+{
+    background-color: #fff!important;
+}
+
+.tabla
+{
+    
+    position: absolute;
+    margin: 90px 150px;
+    /*background-color: white;*/
+}
+
+.cabezaAr
+{
+    background-color: #eee;
+    opacity: 0.9;
+}
+/*---listas---*/
+.titulos
+{
+    margin-left: 10px;
+    font-size: 20px;
+    
+}
+
+/*--PIE--*/
+.margen
+{
+    margin-left: 50px;
+}

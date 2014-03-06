@@ -1,0 +1,35 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JQuery practica examen</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <style>
+            .box
+            {
+                margin: 30px 150px;
+                width: 140px;
+                height: 140px;
+                background-color: #777;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <button id="goleft">&LT;</button>
+            <button id="goright">&GT;</button>
+            <div class="box"></div>
+        </div>
+        <script>
+            $("#goleft").click(function(){
+                $("#box").animate({
+                    width: "70%"
+                });
+            });
+        </script>
+    </body>
+</html>
